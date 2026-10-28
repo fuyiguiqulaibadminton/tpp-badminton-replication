@@ -1,0 +1,9 @@
+﻿Analysis check,Estimate,Reading
+"Raw annual slope, discipline + round fixed effects (s/point/year)",0.295,Baseline 2018-2025 trend
+  + three-set indicator,0.294,Three-set structure ~1% of trend
+  excluding 2020 / excluding 2020-2021,0.298 / 0.302,COVID seasons do not drive the slope
+Raw 2018 -> 2025 aggregate Delta TPP (s/point),+2.23,Total rise
+  net of rule breaks (net-full / net-technical),+2.23 / +2.23,Mandated breaks cancel in the difference
+  composition standardised to 2018 weights: discipline / round / level,+2.21 / +2.25 / +2.12,mix terms +0.02 / -0.02 / +0.11
+"  rest interval, per additional week of rest",-0.01,Negative control (Table S5)
+Unexplained composite per-point clock time,~ +2.2 (the full rise),Rally/pause mechanism requires video coding

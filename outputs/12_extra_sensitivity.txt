@@ -1,0 +1,16 @@
+RQ1 sample n=3868; 2026 matches in sample = 259
+WC full sample 2006-2026 (main): n=3868  beta1=0.751  beta2=-0.843  post=-0.092 (SE 0.056, p 0.102)
+WC excluding 2026: n=3609  beta1=0.751  beta2=-0.842  post=-0.090 (SE 0.068, p 0.181)
+WC P1/P99 bounds: [17.70, 47.75]  clipped low 39, high 39
+WC P1/P99 winsorized: post=-0.088 (SE 0.054, p 0.107)
+Tour P1/P99 bounds: [20.00, 46.79]  clipped low 237, high 260
+Tour P1/P99 winsorized: slope=0.289 (SE 0.040, p 8.421e-13)
+Tour full sample (main): n=25928  annual slope=0.295 (SE 0.041, p 7.159e-13)
+
+Table S11 rows:
+series                        check     n  beta1  beta2  post_or_annual    SE     p winsor_lo winsor_hi
+    WC full sample 2006-2026 (main)  3868  0.751 -0.843          -0.092 0.056 0.102                    
+    WC               excluding 2026  3609  0.751 -0.842          -0.090 0.068 0.181                    
+    WC            P1/P99 winsorized  3868   0.74 -0.828          -0.088 0.054 0.107      17.7     47.75
+  Tour            P1/P99 winsorized 25928                         0.289 0.040 0.000      20.0     46.79
+  Tour           full sample (main) 25928                         0.295 0.041 0.000                    

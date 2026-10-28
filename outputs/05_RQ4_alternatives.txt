@@ -1,0 +1,28 @@
+three-set rate: 31.9% (2018) -> 32.8% (2025)
+three-set TPP premium (Tour, raw contrast) = 2.85 (SE 0.07, p 0)
+  FE-adjusted contrast (discipline, round, year) = 2.53
+mean points: three-set 110.62, two-set 71.04
+rule-mandated breaks per point: three-set 3.80 (420/110.6), two-set 3.38 (240/71.0), difference 0.42
+residual three-set premium attributed to pace ~ 2.43 s/point
+annual TPP slope 0.295 -> 0.294 s/year after three-set control
+contribution of the three-set-rate rise to the 2.23 s/point trend ~ 0.004 s/point per year-equivalent (about 1%)
+
+FE annual TPP slope (all years): 0.295 s/year
+FE annual TPP slope (drop 2020): 0.298 s/year
+FE annual TPP slope (drop 2020-2021): 0.302 s/year
+deuce rate: 18.7% (2018) -> 20.1% (2025)
+mean per-game score gap: 6.35 (2018), 6.30 (2025)
+
+raw aggregate TPP change 2018->2025 = 2.23 s/point
+net-TPP levels (s/point) and mean deducted break time per point:
+  year   raw   net-full  net-technical | break/pt full  break/pt tech | three-set%
+  2018  30.514    26.955        28.849 |         3.559          1.665 |  31.9
+  2025  32.743    29.183        31.081 |         3.560          1.663 |  32.8
+net TPP (full) change = 2.228 s/point (raw 2.229; identical because mean break allowance per point is unchanged across years)
+net TPP (technical) change = 2.231 s/point (raw 2.229; identical because mean break allowance per point is unchanged across years)
+
+rest-interval panel: 51,856 player-match rows (two players x 25,928 completed matches); 4,428 are each player's first observed match with no previous-match interval in-window and are dropped, leaving 47,428
+  days-since-previous-match coef = -0.0014 s/point/day (iid SE 0.0002, p 0.000)
+  days-since-previous-match coef = -0.0014 s/point/day (player-clustered SE 0.0002, p 0.000)
+  days-since-previous-match coef = -0.0014 s/point/day (event-clustered SE 0.0005, p 0.003)
+  practical magnitude: one extra week of rest changes TPP by -0.010 s/point, negligible against the 2.23 s/point trend; significance is fragile to the clustering choice, so this is read as no practically meaningful rest effect.

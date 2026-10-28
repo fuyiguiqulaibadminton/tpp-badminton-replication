@@ -1,0 +1,9 @@
+﻿Item,Value
+Player-match rows (2 players x completed matches),"51,856"
+Dropped: player's first in-window match (no prior interval),"4,428"
+Estimation sample,"47,428"
+Coefficient on days since previous match (s/point/day),-0.0014
+Event-clustered SE (p),0.0005 (0.003)
+iid SE (p),0.0002 (3.64e-12)
+Player-clustered SE (p),0.0002 (9.37e-11)
+Effect of one additional week of rest (s/point),-0.01

@@ -1,0 +1,14 @@
+RQ1 segmented regression, n = 3868
+beta1 (2006-2017 slope) = 0.751 (cluster SE 0.088)
+beta2 (slope change)    = -0.843 (cluster SE 0.135)
+post-2018 slope beta1+beta2 = -0.092 (cluster SE 0.056)
+R^2 = 0.4756 ; adjusted R^2 = 0.4741
+augmented model: three-set (is_decider) = 2.63 (cluster SE 0.16); slope change robust at -0.823
+Chow test single vs segmented slope: F(1, 3856) = 302.6, p = 2.68e-65
+Year-cluster bootstrap (10,000 resamples): post-slope 95% CI [-0.23, 0.04], two-sided p = 0.15
+Annual-aggregation regression: beta1 = 0.77 (SE 0.07), beta2 = -0.90 (SE 0.14), post slope = -0.12
+Annual-aggregation post-slope 95% CI = [-0.26, 0.02]
+TOST: match-level year-cluster CI [-0.23, 0.04]
+  equivalence within +/-0.30 s/year: YES
+  equivalence within +/-0.25 s/year: YES
+  equivalence within +/-0.20 s/year: NO (lower/upper bound outside)

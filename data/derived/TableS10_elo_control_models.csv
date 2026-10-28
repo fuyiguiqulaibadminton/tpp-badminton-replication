@@ -1,0 +1,25 @@
+﻿series,spec,note,n,years,beta1,beta2,post_slope,post_se,post_p,r2,elo100_coef,elo100_se,elo100_p,three_coef,three_se
+WC singles,baseline,"linked singles, 2026 excluded (no Elo)",1610,2006-2025,0.718,-0.701,0.017,0.068,0.8,0.4252,,,,,
+WC singles,with |deltaElo|,pre-match Elo gap / 100,1610,2006-2025,0.698,-0.658,0.039,0.068,0.564,0.444,-0.434,0.046,0.0,,
+WC singles,with three-set,,1610,2006-2025,0.71,-0.683,0.027,0.07,0.7,0.4524,,,,2.31,0.26
+WC singles,with |deltaElo| + three,,1610,2006-2025,0.695,-0.653,0.042,0.069,0.541,0.4626,-0.329,0.057,0.0,1.97,0.3
+WC singles,"baseline, 2011+",drops 2006-2010 Elo cold-start years,1165,2011-2025,0.614,-0.56,0.055,0.072,0.447,0.3028,,,,,
+WC singles,"|deltaElo|, 2011+",,1165,2011-2025,0.59,-0.512,0.078,0.071,0.271,0.3207,-0.416,0.056,0.0,,
+Tour singles,baseline,linked singles 2018-2025,10484,2018-2025,,,0.379,0.036,0.0,0.2725,,,,,
+Tour singles,with |deltaElo|,,10484,2018-2025,,,0.379,0.035,0.0,0.2806,-0.306,0.043,0.0,,
+Tour singles,with three-set,,10484,2018-2025,,,0.377,0.033,0.0,0.3028,,,,2.01,0.18
+Tour singles,with |deltaElo| + three,,10484,2018-2025,,,0.377,0.033,0.0,0.3069,-0.221,0.04,0.0,1.9,0.17
+Tour singles,"baseline, excl 2020",,10118,2018-2025,,,0.377,0.036,0.0,0.2731,,,,,
+Tour singles,"|deltaElo|, excl 2020",,10118,2018-2025,,,0.377,0.036,0.0,0.2809,-0.303,0.045,0.0,,
+Tour singles,"baseline, excl 2020-21",,9535,2018-2025,,,0.374,0.035,0.0,0.2709,,,,,
+Tour singles,"|deltaElo|, excl 2020-21",,9535,2018-2025,,,0.375,0.036,0.0,0.2784,-0.297,0.048,0.0,,
+WC singles threshold,2<=dur<=200,removed 0,1610,,,,0.017,0.068,,,,,,,
+Tour singles threshold,2<=dur<=200,removed 0,10484,,,,0.379,0.036,,,,,,,
+WC singles threshold,10<=dur<=200,removed 0,1610,,,,0.017,0.068,,,,,,,
+Tour singles threshold,10<=dur<=200,removed 0,10484,,,,0.379,0.036,,,,,,,
+WC singles threshold,18<=dur<=200,removed 2,1608,,,,0.018,0.068,,,,,,,
+Tour singles threshold,18<=dur<=200,removed 11,10473,,,,0.377,0.035,,,,,,,
+WC singles threshold,2<=dur<=120,removed 0,1610,,,,0.017,0.068,,,,,,,
+Tour singles threshold,2<=dur<=120,removed 0,10484,,,,0.379,0.036,,,,,,,
+WC singles threshold,18<=dur<=120,removed 2,1608,,,,0.018,0.068,,,,,,,
+Tour singles threshold,18<=dur<=120,removed 11,10473,,,,0.377,0.035,,,,,,,
