@@ -173,8 +173,7 @@ quarter-finals), giving the Tour TPP analysis sample **n = 25,928**.
 * The package was verified on **Python 3.13.16 (Windows)**; it also runs on
   Python 3.10+. The exact versions used for verification are pinned in
   `requirements.txt` (pandas 3.0.6, numpy 2.5.4, scipy 1.18.1,
-  statsmodels 0.15.0, matplotlib 3.11.2, openpyxl 3.1.5; plus python-docx 1.2.0,
-  lxml 6.1.3 and PyMuPDF 2.0 for the document/PDF inspection helpers). Small
+  statsmodels 0.15.0, matplotlib 3.11.2, openpyxl 3.1.5). Small
   version differences are not expected to change any reported result.
 * No compilation, no network access at run time (everything reads `data/raw`).
 
