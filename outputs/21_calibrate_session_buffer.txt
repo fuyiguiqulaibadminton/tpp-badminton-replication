@@ -1,0 +1,8 @@
+session overrun vs mean (realized - sum means), empirical quantiles:
+  P50   = -1.6 min
+  P75   = 31.0 min
+  P90   = 66.8 min
+  P95   = 85.6 min
+independence 1.645SD (standard)    coverage=0.9134 mean idle slack=70.3 min
+sum of cell P95 (conservative)     coverage=0.9996 mean idle slack=239.1 min
+tight (no buffer) coverage=0.5110

@@ -1,0 +1,5 @@
+sessions=2853 (match-clock coverage; fixed transition cancels)
+tier  coverage  mean_overrun_all  mean_overrun_when_exceed  pct_exceed_gt10  pct_exceed_gt20  mean_slack
+mean    0.5110             -0.10                     41.18           0.4090           0.3298       20.24
+ P90    0.9975           -188.91                     17.71           0.0014           0.0011      188.96
+ P95    0.9996           -239.05                     18.60           0.0004           0.0000      239.05

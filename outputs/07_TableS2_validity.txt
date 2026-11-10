@@ -1,0 +1,11 @@
+Anchor 1 - 2006 World Championships men's singles
+  official n=58, aggregate TPP=25.52, match-level mean TPP=25.24
+  reconstructed (Hoffmann & Vogt back-derived) = 25.4
+  delta vs aggregate = -0.1; delta vs match mean = +0.2
+
+Anchor 2 - Gomez et al. (2019) Super Series MS, RT 9.1-9.9 s, EPT 31%
+  official Tour MS 2018: n=788, aggregate TPP=34.22, mean TPP=33.97
+  reconstructed range 32.7-35.2, midpoint 34.0
+  delta (midpoint vs aggregate) = -0.3 (full range -1.6 to +1.0)
+
+Note: the manuscript reports the 2006 official value on the aggregate estimand used throughout the paper (sum 60T / sum S = 25.5), giving delta = -0.1 versus the 25.4 back-derived value; the match-level mean (25.2) is retained here for transparency only. The Gomez anchor uses the aggregate (34.2, delta = -0.3). Both bases agree within ~0.3 s/point, so the validity conclusion is unchanged.

@@ -1,0 +1,9 @@
+Wild cluster bootstrap (B=9999, seed=20261008)
+
+World Championships post-2018 slope:
+  G=16 Rademacher: Wald=2.673, wild p=0.1710
+  G=16 Webb: Wald=2.673, wild p=0.1780
+
+World Tour annual slope:
+  G=8 Rademacher: Wald=51.500, wild p=0.0142
+  G=8 Webb: Wald=51.500, wild p=0.0091

@@ -1,0 +1,11 @@
+=== Dataset A: World Championships 2005-2026 ===
+total 4250 | WO 79 | RET 36 | completed 4135
+completed 2005 side-out (descriptive) 263 | implausible duration (<10 min) 4 | RQ1 rally-point n = 3868
+
+=== Dataset B: World Tour Super 300-1000, 2018-2025 ===
+total 26597 | WO 274 | RET 392 | completed 25931
+completed missing/unusable TPP input 3 | TPP sample n = 25928
+
+=== Closure ===
+combined elite matches = 30847 (paper 30,847)
+usable TPP inputs = 30059 = 25928 Tour + 3868 WC rally-point + 263 side-out (paper 30,059)

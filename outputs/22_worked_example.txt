@@ -1,0 +1,9 @@
+cell residual SD: MS Final=15.81 min, WD Final=17.26 min
+residual variance: MS Final=250.03, WD Final=297.96
+standard independence buffer = 1.645*sqrt(250.03+297.96) = 38.5 min
+standard window = 116.8+15+38.5 = 170.3 min
+tight=131.8  conservative=193.8
+tertile cutpoints 24.8 / 27.4
+A high n=9 cells: [('MS', 'R16', 28.0), ('MS', 'QF', 27.4), ('MS', 'Final', 29.3), ('WS', 'Final', 28.9), ('WD', 'R32', 28.6), ('WD', 'R16', 30.2), ('WD', 'QF', 31.6), ('WD', 'SF', 31.5), ('WD', 'Final', 32.7)]
+B mid n=9 cells: [('MS', 'R32', 27.3), ('MS', 'SF', 26.8), ('WS', 'R32', 25.2), ('WS', 'R16', 24.8), ('WS', 'QF', 26.2), ('MD', 'R16', 25.0), ('XD', 'R32', 24.8), ('XD', 'QF', 25.7), ('XD', 'SF', 27.0)]
+C low n=7 cells: [('WS', 'SF', 24.0), ('MD', 'R32', 24.6), ('MD', 'QF', 24.4), ('MD', 'SF', 24.7), ('MD', 'Final', 22.5), ('XD', 'R16', 24.1), ('XD', 'Final', 24.4)]

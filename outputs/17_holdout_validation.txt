@@ -1,0 +1,6 @@
+forward holdout sessions=1408
+   test_tier  sessions  coverage  mean_overrun  mean_idle
+        mean      1408    0.3707         19.15      12.21
+         P90      1408    0.9950       -168.89     169.00
+         P95      1408    0.9972       -221.88     221.90
+standard_ind      1408    0.8374        -48.55      53.54

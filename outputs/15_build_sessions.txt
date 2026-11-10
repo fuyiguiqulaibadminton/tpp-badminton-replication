@@ -1,0 +1,3 @@
+rows in=25928, dropped missing court=82, kept=25846
+sessions=2853  matches/session mean=9.06 median=9 p90=14.0 max=20
+total realized duration min=1152887

@@ -1,0 +1,39 @@
+Table S6: break-point sensitivity (post-knot slope, s/year)
+  knot 2017: pre 0.751 | post -0.092 (match cluster SE 0.056, p 0.102) | annual post -0.122 (SE 0.087)
+  knot 2018: pre 0.700 | post -0.159 (match cluster SE 0.079, p 0.045) | annual post -0.192 (SE 0.103)
+  knot 2019: pre 0.666 | post -0.266 (match cluster SE 0.079, p 0.001) | annual post -0.306 (SE 0.118)
+
+Table S7: annual RET% / WO% (Tour)
+   year  total  completed  RET  WO  RET_pct  WO_pct
+   2018   3956       3871   49  36     1.25    0.91
+   2019   4013       3918   63  32     1.58    0.80
+   2020    890        879    8   3     0.90    0.34
+   2021   1485       1438   33  14     2.24    0.94
+   2022   2835       2724   29  82     1.05    2.89
+   2023   4419       4281   93  45     2.13    1.02
+   2024   4541       4442   69  30     1.53    0.66
+   2025   4458       4378   48  32     1.08    0.72
+
+Tour annual slope: completed only 0.295 (n=25,928); including 392 retirements at partial TPP 0.297 (n=26,320)
+
+Minimum detectable post-2018 slope (two-sided alpha .05, 80% power): annual-aggregation SE 0.087, df 13, MDE 0.26 s/year; match-level cluster SE 0.056, MDE 0.16 s/year
+
+Stoppage envelope: mean points/match 83.7; to produce the +2.23 s/point rise a clock would have to add 26.7 s/match per year, 187 s = 3.11 min/match cumulatively by 2025
+  equivalent to an extra 18.7 hawkeye-style review (~10 s) episodes per match
+  equivalent to an extra 6.2 extended towel/ball change (~30 s) episodes per match
+  equivalent to an extra 3.1 medical time-out (~60 s) episodes per match
+
+Table S8: recording-change simulation (baseline Tour 0.295, WC post -0.092)
+              series  delta_min  uniform_shift  ramped_shift
+   Tour annual slope         -3          0.296        -0.027
+   Tour annual slope         -2          0.296         0.081
+   Tour annual slope         -1          0.296         0.188
+   Tour annual slope          1          0.295         0.403
+   Tour annual slope          2          0.295         0.510
+   Tour annual slope          3          0.295         0.618
+  WC post-2018 slope         -3         -0.097        -0.406
+  WC post-2018 slope         -2         -0.095        -0.301
+  WC post-2018 slope         -1         -0.094        -0.196
+  WC post-2018 slope          1         -0.090         0.013
+  WC post-2018 slope          2         -0.088         0.118
+  WC post-2018 slope          3         -0.086         0.223

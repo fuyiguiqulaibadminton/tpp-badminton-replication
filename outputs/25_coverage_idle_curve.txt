@@ -1,0 +1,9 @@
+coverage-idle frontier (n=2853 sessions); selected z points:
+  z=0.00 coverage=0.5110 mean_idle=20.2 min
+  z=0.50 coverage=0.6656 mean_idle=32.3 min
+  z=1.00 coverage=0.8051 mean_idle=47.4 min
+  z=1.30 coverage=0.8612 mean_idle=57.6 min
+  z=1.65 coverage=0.9138 mean_idle=70.4 min
+  z=2.00 coverage=0.9485 mean_idle=83.9 min
+  z=2.60 coverage=0.9825 mean_idle=107.9 min
+conservative (sum P95) coverage=0.9996 mean_idle=239.1 min

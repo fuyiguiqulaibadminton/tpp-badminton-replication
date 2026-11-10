@@ -1,0 +1,4 @@
+﻿check,window,n,year_clusters,slope,SE,p,mean_TPP_first,mean_TPP_last
+full 2018-2025 (main),2018-2025,25928,8,0.295,0.041,0.0,30.13,32.41
+2021-2025 same-rules subwindow,2021-2025,17260,5,0.231,0.077,0.0026,31.73,32.41
+2022-2025 full post-pandemic subwindow,2022-2025,15822,4,0.278,0.113,0.0135,31.36,32.41

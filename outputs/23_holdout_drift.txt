@@ -1,0 +1,20 @@
+holdout sessions=1408
+
+Period comparison:
+               metric  train_2018_2022  holdout_2023_2025
+              matches       12800.0000         13046.0000
+  duration mean (min)          43.5830            45.6100
+    duration SD (min)          14.6660            15.1760
+   TPP mean (s/point)          30.9270            32.2530
+     TPP SD (s/point)           5.6570             5.7130
+       three-set rate           0.3173             0.3232
+mean points per match          83.5590            83.8850
+
+Counterfactual standard coverage on holdout sessions:
+                                      calibration  coverage
+                A train mean + train var (frozen)    0.8374
+      B holdout mean + train var (mean refreshed)    0.9155
+       C train mean + holdout var (var refreshed)    0.8487
+D holdout mean + holdout var (fully recalibrated)    0.9190
+
+Mean cell-mean drift=2.07 min; sum residual variance ratio=1.079

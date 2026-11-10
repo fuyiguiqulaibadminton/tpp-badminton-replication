@@ -1,0 +1,37 @@
+EXTERNAL DATA - NOT PRODUCED BY THIS STUDY
+===========================================
+
+Files: matches.xlsx, players.xlsx, tournaments.xlsx
+
+Source: Sun, M. & Zhang, F. (2026). "A relational dataset of international
+badminton singles matches with ranking and Elo measures, 2006-2025."
+Scientific Data. https://doi.org/10.1038/s41597-026-08408-4
+
+Dataset DOI: https://doi.org/10.7910/DVN/RSAYV5 (Harvard Dataverse,
+version 3.0, released 2026-07-29).
+
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/). The CC BY
+4.0 licence applies to the authors' original contributions (database schema,
+standardized identifiers, entity-resolution and correction outputs,
+harmonized classifications, the Elo rating series, and the compilation as a
+whole). Underlying factual match records are factual records of BWF-sanctioned
+competition; the licence does not transfer or waive any independently
+applicable rights in the source websites or databases.
+
+MD5 checksums (verified against Dataverse metadata):
+- matches.xlsx      f591a0307c5bdc2a4fd72fb828a25bf3
+- players.xlsx      8bdb76d681a6b4ee0fcce9aae42a7615
+- tournaments.xlsx  f74a195a431e2211613dd5e27758d08b
+
+Note (per depositors): the Elo ratings are model-based measures constructed by
+the original authors and are NOT official BWF statistics. These files are
+redistributed here for review reproducibility under CC BY 4.0 attribution;
+they are also freely downloadable from the Dataset DOI above.
+
+Only the three data tables are redistributed. The original release scripts
+(01_load_data.py ... 05_verify_elo.py) are available at the Dataset DOI.
+
+This study uses only the pre-match Elo columns (winner_elo, loser_elo),
+match_date, tournament_id, type, round, winner_id/loser_id and score, linked
+to players.xlsx names. Coverage: MS/WS only, 2006-09 to 2025-12; no doubles
+Elo exists. The 2026 World Championships therefore cannot be matched.

@@ -1,0 +1,8 @@
+﻿metric,train_2018_2022,holdout_2023_2025
+matches,12800.0,13046.0
+duration mean (min),43.583,45.61
+duration SD (min),14.666,15.176
+TPP mean (s/point),30.927,32.253
+TPP SD (s/point),5.657,5.713
+three-set rate,0.3173,0.3232
+mean points per match,83.559,83.885

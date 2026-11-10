@@ -1,0 +1,2 @@
+Table S13 cell quantiles: 25 cells
+overall mean points/match: 83.72

@@ -1,0 +1,5 @@
+﻿calibration,coverage
+A train mean + train var (frozen),0.8374
+B holdout mean + train var (mean refreshed),0.9155
+C train mean + holdout var (var refreshed),0.8487
+D holdout mean + holdout var (fully recalibrated),0.919

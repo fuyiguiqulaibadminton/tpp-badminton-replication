@@ -1,0 +1,5 @@
+ICC_residual = 0.0577
+ICC_raw_duration = 0.0961
+lag1_residual_corr = 0.0486
+var_session_mean_resid = 39.0364
+var_match_resid = 197.6478

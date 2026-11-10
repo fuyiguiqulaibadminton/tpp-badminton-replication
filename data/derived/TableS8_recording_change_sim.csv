@@ -1,0 +1,13 @@
+﻿series,delta_min,uniform_shift,ramped_shift
+Tour annual slope,-3,0.296,-0.027
+Tour annual slope,-2,0.296,0.081
+Tour annual slope,-1,0.296,0.188
+Tour annual slope,1,0.295,0.403
+Tour annual slope,2,0.295,0.51
+Tour annual slope,3,0.295,0.618
+WC post-2018 slope,-3,-0.097,-0.406
+WC post-2018 slope,-2,-0.095,-0.301
+WC post-2018 slope,-1,-0.094,-0.196
+WC post-2018 slope,1,-0.09,0.013
+WC post-2018 slope,2,-0.088,0.118
+WC post-2018 slope,3,-0.086,0.223

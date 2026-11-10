@@ -1,0 +1,5 @@
+﻿scenario,session common var,coverage
+independence,0.0,0.95
+observed 1x,11.4058,0.907
+2x,22.8117,0.8738
+3x,34.2175,0.8476

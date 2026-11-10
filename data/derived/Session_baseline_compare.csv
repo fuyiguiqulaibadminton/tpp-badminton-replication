@@ -1,0 +1,4 @@
+﻿baseline,sessions,coverage,mean_overrun,mae,mean_idle
+1 mean (no buffer),2853,0.511,-0.05,40.37,20.21
+2 last-year cell P95,2853,0.8419,-135.35,250.68,193.02
+3 TPP rule cell P95,2853,0.9996,-239.08,239.09,239.08
